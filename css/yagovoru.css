@@ -1,0 +1,77 @@
+html {
+  font-size: 10px; }
+
+*,
+*:before,
+*:after,
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  html {
+    font-size: 5px; }
+
+  .container {
+    flex-direction: column; }
+
+  .logo-text {
+    width: 50%; } }
+@media screen and (min-width: 701px) {
+  .container {
+    flex-direction: row; }
+
+  .logo-text {
+    width: 500px; } }
+.logo-points {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 36px; }
+  .logo-points_line-1 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FF0000;
+    width: 36px;
+    height: 36px; }
+  .logo-points_line-2 {
+    width: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0; }
+  .logo-points_line-2-item {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #797979; }
+  .logo-points_line-3 {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .logo-points_line-3-item {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #797979; }
+
+.logo-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 4rem;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 1.25em; }
+  .logo-text_masterskaya {
+    font-weight: 700; }
+  .logo-text_name {
+    font-weight: 400; }

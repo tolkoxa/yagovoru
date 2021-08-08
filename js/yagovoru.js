@@ -1,1 +1,1 @@
-sendTelegram('test outside');
+// sendTelegram('test outside');
